@@ -3,7 +3,7 @@ Summary:	Fast html link checker
 Summary(pl):	Szybkie narzêdzie do sprawdzania odno¶ników HTML
 Name:		linklint
 Version:	2.3.5
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.linklint.org/download/%{name}-%{version}.tar.gz
