@@ -20,11 +20,10 @@ Linklint jest perlowym programem który sprawdza odno¶niki na stronach WWW.
 %prep
 %setup -q
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install linklint-%{version} $RPM_BUILD_ROOT%{_bindir}/linklint
 
 %clean
