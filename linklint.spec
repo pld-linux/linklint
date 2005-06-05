@@ -9,6 +9,7 @@ Group:		Networking/Utilities
 Source0:	http://www.linklint.org/download/%{name}-%{version}.tar.gz
 # Source0-md5:	c1ae0860199da59ded28771d1fa7b800
 URL:		http://www.linklint.org/
+BuildRequires:	rpm-perlprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
