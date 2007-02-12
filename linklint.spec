@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Fast html link checker
-Summary(pl):	Szybkie narzêdzie do sprawdzania odno¶ników HTML
+Summary(pl.UTF-8):   Szybkie narzÄ™dzie do sprawdzania odnoÅ›nikÃ³w HTML
 Name:		linklint
 Version:	2.3.5
 Release:	2
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 linklint is a Perl program that checks links on web sites.
 
-%description -l pl
-linklint jest perlowym programem który sprawdza odno¶niki na stronach
+%description -l pl.UTF-8
+linklint jest perlowym programem ktÃ³ry sprawdza odnoÅ›niki na stronach
 WWW.
 
 %prep
