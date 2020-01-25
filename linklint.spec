@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Fast html link checker
 Summary(pl.UTF-8):	Szybkie narzędzie do sprawdzania odnośników HTML
 Name:		linklint
